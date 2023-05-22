@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 body {
@@ -67,4 +68,192 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #252525;
+}
+
+/* hero background and cover text*/
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background-image: url(../images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#hero-image h2 {
+    font-size: 180%;
+}
+
+#hero-image, #hero-image h2 {
+    color: #0f0536;
+}
+
+#hero-image {
+    clear: both;
+    font-size: 130%;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+    letter-spacing: 4px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#hero-image, .hero-botton {
+    line-height: 80px;
+}
+
+.hero-botton {
+    text-align: center;
+    font-family: Ubuntu, sans-serif;
+    font-size: 200%;
+    color: #5f5c5c;
+}
+
+.hero-botton a {
+    text-decoration: none;
+    color: darkblue;
+    background-color: #877f7f;
+    border: 1px solid #877f7f;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 75px;
+}
+
+.hero-botton a:hover {
+    background-color: rgb(151, 151, 160);
+}
+
+/* Our Services Section*/
+
+#our-services {
+    height: 500px;
+}
+
+/* service section */
+
+#services div {
+    color: #0f0536;
+    width: 30%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 110px;
+    font-family: Ubuntu, sans-serif;
+    letter-spacing: 2px;
+}
+
+#our-services h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+#services a {
+    text-decoration: none;
+    color: #0672ba;
+}
+#services a:hover {
+    border-bottom: 1px solid #0672ba;
+    list-style-type: none;
+}
+
+#services span {
+    color: #252525;
+    font-size: 150%;
+    line-height: 75px;
+}
+
+#services p {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+    line-height: 1.45;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+.accounting-logo {
+    width: 60px;
+    position: absolute;
+    top: 990px;
+    left: 15%;
+    
+}
+
+.finance-logo {
+    width: 60px;
+    position: absolute;
+    top: 990px;
+    left: 46%;
+}
+
+.bookkeeping-logo {
+    width: 60px;
+    position: absolute;
+    top: 990px;
+    right: 18%;
+}
+
+.aSeparator {
+    border-bottom: 4px solid #abb8c3;
+    width: 95%;
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#contact {
+    height: 600px;
+    text-align: center;
+    line-height: 75px;
+}
+#contact h3 {
+    color: #3a3a3a;
+    font-family: Ubuntu, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 50px;
+    letter-spacing: 4px;
+}
+
+#contact > a {
+    display: inline;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: Ubuntu, sans-serif;
+    color: #0672ba;
+}
+
+#contact-img {
+    clear: both;
+    display: inline;
+    position: absolute;
+    top: 1600px;
+    left: 20%;
+}
+
+#contact-form form {
+    width: 100%;
+}
+
+form input, form textarea {
+    border: 0;
+    outline: none;
+    background: #877f7f;
+    padding: 15px;
+    margin: 15px 0;
+    color: #3a3a3a;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+#contact a:hover {
+    border-bottom: 1px solid #0672ba;
 }
